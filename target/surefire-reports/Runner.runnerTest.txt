@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: Runner.runnerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 46.47 s <<< FAILURE! -- in Runner.runnerTest
+ordering food items in pizzahut website.Validate Pizzahut pizza order flow -- Time elapsed: 42.31 s <<< FAILURE!
+java.lang.AssertionError: Checkout item count
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at StepDefinitions.orderTests.countas2(orderTests.java:131)
+	at ✽.User see 2 items are showing under checkout button(file:///C:/Users/vigne/eclipse-workspace/PizzahutCucumber/src/test/resources/Features/order.feature:19)
+
